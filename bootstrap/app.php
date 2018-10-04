@@ -16,7 +16,7 @@ $capsule = new Capsule;
 $capsule->addConnection([
 	'driver' => 'mysql',
 	'host' => 'localhost',
-	'database' => 'codecourse_cart',
+	'database' => 'cart',
 	'username' => 'root',
 	'password' => '',
 	'charset' => 'utf8',
