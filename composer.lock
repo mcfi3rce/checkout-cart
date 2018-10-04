@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "add92a4e02cfff0d269cc413d5c6cabb",
+    "content-hash": "d0975fe6ef89604e2bcf02546778200e",
     "packages": [
+        {
+            "name": "braintree/braintree_php",
+            "version": "3.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/braintree/braintree_php.git",
+                "reference": "5e16bbf8924a6da51356393fbf9381a333a401eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/braintree/braintree_php/zipball/5e16bbf8924a6da51356393fbf9381a333a401eb",
+                "reference": "5e16bbf8924a6da51356393fbf9381a333a401eb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-hash": "*",
+                "ext-openssl": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Braintree": "lib/"
+                },
+                "psr-4": {
+                    "Braintree\\": "lib/Braintree"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Braintree",
+                    "homepage": "http://www.braintreepayments.com"
+                }
+            ],
+            "description": "Braintree PHP Client Library",
+            "time": "2016-05-13T18:44:46+00:00"
+        },
         {
             "name": "container-interop/container-interop",
             "version": "1.2.0",
