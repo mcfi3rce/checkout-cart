@@ -6,7 +6,7 @@ use Cart\Models\Order;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model{
-
+    /*
 	public $quantity = null;
 
 	public function hasLowStock(){
@@ -31,6 +31,6 @@ class Product extends Model{
 
 	public function order(){
 		return $this->belongsTo(Order::class, 'orders_products')->withPivot('quantity');
-	}
+	} */
 
 }

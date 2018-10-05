@@ -10,7 +10,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
 class HomeController{
 
 	public function index(Request $request, Response $response, Twig $view, Product $product){
-		$products = $product->get();
+		$products = $product->all();
         
         var_dump($products);
         die();
