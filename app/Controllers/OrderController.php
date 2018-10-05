@@ -67,7 +67,7 @@ class OrderController{
 			return $response->withRedirect($this->router->pathFor('order.index'));
 		}
 
-		$hash = bin2hex(mcrypt_create_iv(32, MCRYPT_DEV_URANDOM));
+		$hash = bin2hex(random_bytes(32));
 
 		$customer = Customer::firstOrCreate([
 			'email' => $request->getParam('email'),
